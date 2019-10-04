@@ -1,0 +1,87 @@
+.myslides img {
+  height: 400px;
+  width: 100%;
+}
+
+.prev,
+.next {
+  top: 50%;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 16px;
+  margin-top: -22px;
+  border-radius: 0 3px 3px 0;
+  color: #d6d6d6 f;
+  cursor: pointer;
+}
+
+.next {
+  border-radius: 3px 0 0 3px;
+  margin-left: 10;
+}
+
+.prev {
+  margin-right: 10;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(24, 24, 24, 0.8);
+}
+
+.caption {
+  font-weight: 600;
+  font-size: 40px;
+  color: white;
+  display: block;
+  position: relative;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-top: -60px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.dots {
+  margin-top: 20px;
+  width: 13px;
+  height: 13px;
+  background: gray;
+  display: inline-block;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+          animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.active,
+.dot:hover {
+  background-color: #333;
+}
+/*# sourceMappingURL=slider.css.map */

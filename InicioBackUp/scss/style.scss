@@ -1,0 +1,38 @@
+@import 'components/navbar';            //navbar
+@import 'components/background';        //background
+@import 'components/newsBox';         //Novedades
+@import 'components/slider';          //Slider
+@import 'components/footer';          //Footer
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    background-color: rgb(10, 10, 10);
+}
+
+//slide OFF
+.slideshow-container {
+    //display: none;
+}
+
+//whiteBox OFF
+.whiteBox {
+    //display: none;
+}
+
+//footer OFF
+.footer {
+    //display: none;
+}
+
+//navbar OFF
+.navbar {
+   //display: none;
+}
+
+//background OFF
+.big-circle,.mid-circle,.small-circle {
+    //display: none;
+}

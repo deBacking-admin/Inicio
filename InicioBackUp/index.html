@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+    <html lang='es' data-cqlang='es' dir='ltr'> 
+        <head>
+                <link rel="stylesheet" href="./scss/style.css">
+                <meta charset="UTF-8">
+                <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+                <meta name='template' content='home-page'>
+                <meta name='viewport' content='width=device-width, user-scalable=1'>
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+                <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+                <title>Inicio | E-QUADRIS</title>
+                <link rel="icon" href="./img/Favicon-e-quadris.png">
+        </head>
+        <body>
+            <div class="navbar">
+                <div class="logo">
+                    <a href="www.equadris.com"><img src="./img/Logo.PNG" alt="Inicio"></a>
+                </div>
+                <a href="www.equadris.com"><h1 id="inicio" title="Inicio">E-QUADRIS</h1></a>
+                <div class="menu">
+                    <a href="www.equadris.com" id="onpage">Inicio</a>           
+                    <a href="./index-equipos/" id="nopage">Equipos</a>
+                    <a href="./index-torneos/" id="nopage">Torneos</a>
+                    <a href="./index-profile/" id="nopage">Perfil</a>
+                </div>
+
+                <div class="user-data">                   
+                    <img class="coin" src="data:image/png;base64,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" alt="">
+                    <p class="coins">28</p>
+                    <a href="./index-profile/"><p class="username">TRC_Zetik</p></a>
+        
+                    <img class="avatar" src="./img/default.png">
+                </div>
+                <a class="btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>    
+            </div>
+        
+            <script type="text/javascript">
+            $(".btn").on("click",function(){
+                $(".menu").toggleClass("show");
+            });
+            </script>
+
+            <div class="content">
+                <div class="whiteBox">
+                    <h1>Novedades</h1>
+                    <div class="slideshow-container">
+                        <div class="myslides fade">
+                            <div class="numbers">1 / 5</div>
+                            <div><img src="./img/img-news/1.png"></div>
+                            <div class="caption">Novedad 1</div>
+                        </div>
+                        <div class="myslides fade">
+                            <div class="numbers">2 / 5</div>
+                            <div><img src="./img/img-news/2.png"></div>
+                            <div class="caption">Novedad 2</div>
+                        </div>
+                        <div class="myslides fade">
+                            <div class="numbers">3 / 5</div>
+                            <div><img src="./img/img-news/3.png"></div>
+                            <div class="caption">Novedad 3</div>
+                        </div>
+                        <div class="myslides fade">
+                            <div class="numbers">4 / 5</div>
+                            <div><img src="./img/img-news/4.png"></div>
+                            <div class="caption">Novedad 4</div>
+                        </div>
+                        <div class="myslides fade">
+                            <div class="numbers">5 / 5</div>
+                            <div><img src="./img/img-news/5.png"></div>
+                            <div class="caption">Novedad 5</div>
+                        </div>
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                        <br>
+                        <div class="dotes">
+                            <span class="dots" onclick="currentSlide(1)"></span>
+                            <span class="dots" onclick="currentSlide(2)"></span>
+                            <span class="dots" onclick="currentSlide(3)"></span>
+                            <span class="dots" onclick="currentSlide(4)"></span>
+                            <span class="dots" onclick="currentSlide(5)"></span>
+                        </div>
+                        <script type="text/javascript">
+   
+   var slideIndex = 1;   
+    showSlide(slideIndex);
+    function plusSlides(n){
+   showSlide(slideIndex += n);
+   }
+   function currentSlide(n) {
+   showSlide(slideIndex = n);
+   }
+   function showSlide(n){
+   var i;
+   var slides = document.getElementsByClassName("myslides");
+   var dots = document.getElementsByClassName("dots")
+   if (n > slides.length) { slideIndex = 1};
+   if (n < 1) { slideIndex = slides.length};
+   for (i=0;i<slides.length;i++) {
+   slides[i].style.display = "none";
+   };
+   for (i=0;i<dots.length;i++) {
+   dots[i].className = dots[i].className.replace(" active","");
+   };
+   slides[slideIndex-1].style.display = "block";
+   dots[slideIndex-1].className += " active";
+   }
+                            </script>
+                            <div class="grid-news">
+                            <!-- GRID -->
+                            </div>
+                            <br>
+                        </div>
+                <!-- ADS -->
+                <div class="ads1"></div>
+                <div class="ads2"></div>
+                </div>
+            </div>
+            <br><br>
+            <img class="small-circle" src="./img/small-eclipse.svg" alt="">
+            <img class="mid-circle" src="/mid-eclipse.svg" alt="">
+            <img class="big-circle" src="./img/big-eclipse.svg" alt=""> 
+            <br><br><br><br><br><br>
+            <div class="footer">
+                <a href="#" class="logout"><h2>Cerrar session</h2></a>
+                <div class="foot-menu">
+                    <a href="./index-inicio/" class="on"><h2>Inicio</h2></a>
+                    <a href="./index-profile/" class="off"><h2>Perfil</h2></a>
+                    <a href="./index-torneos/" class="off"><h2>Torneos</h2></a>
+                    <a href="./index-equipos/" class="off"><h2>Equipos</h2></a>
+                </div>
+                <h4 class="db">By deBacking</h4>
+                <h4 class="copy">© 2019 E-Quadris</h4>
+                <div class="legales"> 
+                    <a href=""><h4 class="legal">Legal</h4></a>
+                    <a href=""><h4 class="privacidad">Privacidad</h4></a>
+                    <a href=""><h4 class="cookies">Cookies</h4></a>
+                </div>
+            </div>
+            <br>
+        </body>
+    </html>

@@ -1,0 +1,26 @@
+.content {
+    .whiteBox {
+        background: rgb(214, 214, 214);
+        //Tamaño
+        height: fit-content;
+        width: 70%;
+        text-align: center;
+        border-radius: 10px;
+        // Positioning and Margins here
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        margin-top: 160px;
+        margin-bottom: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+
+        h1 {
+            text-align: left;
+            margin-top: 5px;
+            margin-left: 15px;
+        }
+    }
+}

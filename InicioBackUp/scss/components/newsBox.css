@@ -1,0 +1,25 @@
+.content .whiteBox {
+  background: #d6d6d6;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 70%;
+  text-align: center;
+  border-radius: 10px;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-top: 160px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+.content .whiteBox h1 {
+  text-align: left;
+  margin-top: 5px;
+  margin-left: 15px;
+}
+/*# sourceMappingURL=newsBox.css.map */

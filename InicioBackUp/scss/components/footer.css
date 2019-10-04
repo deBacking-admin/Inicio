@@ -1,0 +1,165 @@
+.footer {
+  height: 260px;
+  width: 90%;
+  background: #FFF;
+  border-radius: 4px;
+  padding: 10px;
+  display: block;
+  position: relative;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer .foot-menu a {
+  text-decoration: none;
+}
+
+.footer .foot-menu a h2 {
+  font-size: 20px;
+  margin-left: 2%;
+  color: #05070F;
+  width: 20px;
+}
+
+.footer .foot-menu a h2:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  color: blue;
+  text-decoration: underline;
+}
+
+.footer .logout {
+  position: absolute;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  text-decoration: none;
+  font-size: 16px;
+  color: #05070F;
+  right: 0px;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  margin-right: 30px;
+}
+
+.footer .logout:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  color: blue;
+  text-decoration: underline;
+}
+
+.footer .db {
+  padding: 10px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.footer .copy {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 10px;
+}
+
+.footer .legales {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  bottom: -10px;
+  right: 150px;
+}
+
+.footer .legales a {
+  text-decoration: none;
+}
+
+.footer .legales a h4 {
+  color: black;
+}
+
+.footer .legales a h4:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  color: blue;
+  text-decoration: underline;
+}
+
+.footer .legales .legal,
+.footer .legales .privacidad,
+.footer .legales .cookies {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+@media only screen and (max-width: 700px) {
+  .foot-menu {
+    padding-top: 40px;
+  }
+  .footer {
+    height: 300px;
+  }
+  .logout {
+    position: absolute;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    text-decoration: none;
+    font-size: 16px;
+    color: #05070F;
+    left: 0px;
+    top: 0;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    margin-left: 20px;
+  }
+  .legales {
+    margin-top: 100;
+    padding-bottom: 40px;
+    padding-left: -10px;
+    left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    left: 20;
+  }
+  .legales a {
+    text-decoration: none;
+  }
+  .legales a h4 {
+    color: black;
+  }
+  .legales a h4:hover {
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    color: blue;
+    text-decoration: underline;
+  }
+  .legales .legal,
+  .legales .privacidad,
+  .legales .cookies {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+/*# sourceMappingURL=footer.css.map */
